@@ -1,0 +1,107 @@
+html, body {
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+button, input, select, textarea {
+    font: inherit;
+    margin: 0;
+}
+
+input[type=text],
+input[type=number],
+input[type=date],
+input[type=password],
+input[type=select] {
+    width: 100%;
+    padding: 5px 5px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+input[type=text]:focus,
+input[type=number]:focus,
+input[type=date]:focus,
+input[type=password]:focus,
+input[type=select]:focus {
+    border: 2px solid #555;
+}
+
+input:-webkit-autofill {
+    width: 100%;
+    padding: 5px 5px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    outline: none;
+    background-color: white;
+}
+
+.radio {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 6px;
+}
+
+.button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.button-blue {
+    color: #fff !important;
+    background-color: #2196F3 !important;
+}
+
+#requests {
+    /*font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;*/
+    border-collapse: collapse;
+}
+
+#requests td, #requests th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#requests tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#requests tr:hover {
+    background-color: #ddd;
+}
+
+#requests th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #2196F3;
+    color: white;
+}
