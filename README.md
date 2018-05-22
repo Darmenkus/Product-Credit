@@ -5,3 +5,7 @@
 Cборка проекта - <b>Apache Maven 3.5.3</b> <br>
 Сервер - <b>Apache Tomcat 9.0.7</b> <br>
 СУБД - <b>MySQL 5.5</b> <br>
+
+## Вход в приложение
+<b>Логин:</b> user <br>
+<b>Пароль:</b> pass <br>
